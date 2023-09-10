@@ -1,0 +1,10 @@
+[package]
+edition = "2021"
+name = "iced-text-input-wrapper-widget"
+version = "0.1.0"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+# Note: This project uses the [0.10.0 release](https://github.com/iced-rs/iced/releases/tag/0.10.0)
+iced = {git = "https://github.com/iced-rs/iced.git", rev = "1175f50bcc179d1bb74cac997c8390980e5b47ed", features = ["advanced"]}
